@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT library (Book, Member)>
+<!ELEMENT Book (BookId,Title*,Author*,Price*,Publisher*,Cost*)>
+<!ELEMENT Member (Name,Address)>
+<!ELEMENT Name (FirstName,MiddleName,LastName)>
+<!ELEMENT Address (HouseNumber,Street,City)>
+<!ELEMENT BookId (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT HouseNumber (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Cost (#PCDATA)>
+

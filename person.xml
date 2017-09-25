@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE library SYSTEM "C:/Users/zhao/Desktop/person.dtd">
+<library>
+    <Book><BookId>12345</BookId></Book>
+    <Member>
+		<Name>
+			<FirstName>
+				li
+			</FirstName>
+			<MiddleName>
+				wu
+			</MiddleName>
+			<LastName>
+				bai
+			</LastName>
+		</Name>
+		<Address>
+			<HouseNumber>
+				531
+			</HouseNumber>
+			<Street>
+				hanke
+			</Street>
+			<City>
+				jingzhou
+			</City>
+		</Address>
+	</Member>
+</library>
